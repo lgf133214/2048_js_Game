@@ -1,0 +1,66 @@
+body{
+    touch-action: none;
+    margin: 10px auto;
+    width: 500px;
+    font-family: Arial;
+}
+.header{
+    overflow: hidden;
+}
+.header .title{
+    text-align: center;
+    font: bold 50px Arial;
+    color: #776e65;
+}
+
+.header .author{
+    font: normal 18px Arial;
+    margin: 10px auto;
+    text-align: right;
+}
+
+.header .score{
+    float: left;
+    background-color: #8f7a66;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+    color: #d2c1c1;
+    padding: 8px;
+}
+.header .new-game{
+    float: right;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #8f7a66;
+    color: white;
+    text-align: center;
+}
+.header .new-game:hover{
+    background-color: #bdac9c;
+    cursor: pointer;
+}
+
+.game-container{
+    width: 500px;
+    height: 500px;
+    background-color: #bbada0;
+    margin: 10px auto;
+    border-radius: 8px;
+    position: relative;
+}
+.game-container .grid-cell{
+    width:100px;
+    height:100px;
+    background-color:#ccc0b3;
+    border-radius:6px;
+    position:absolute;
+}
+.game-container .num-cell{
+    border-radius:6px;
+    position:absolute;
+    font:bold 50px Arial;
+    text-align:center;
+    line-height:100px;
+}
